@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Reunion Bubble
+    link(rel='stylesheet' href='../css/style.css')
+  body
+    div
+      img.main-logo(src='../photos/logo.png' alt='Reunion 2020 logo')
+    form
+      input#name.form__input(type='text' placeholder='Full name' required='')
+      input.add-btn(type='submit' value='add')
+    .captain-box
+      h3 Captains
+      li Hridoy Hamid
+      li Minarul Islam
+      li Monowar Shahriar
+      li Rahat Irteza
+      li Sajid Islam
+    .button-box
+      a.btn(href='/poll') poll
+      a.btn(href='/clear') clear
